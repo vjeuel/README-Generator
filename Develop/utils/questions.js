@@ -1,5 +1,8 @@
-// function questionsAsked(questions) {
-   const questions = [
+const questionsAsked = [
+   {
+      message: "Would you like a banner? (If yes, add image link): ",
+      name: "banner"
+   },
    {
       message: "What is the Title of your project?",
       name: "title"
@@ -49,7 +52,5 @@
       name: "username"
    },
 ];
-
-// }
 
 module.exports = questionsAsked;

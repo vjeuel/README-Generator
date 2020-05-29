@@ -1,26 +1,29 @@
 function generateMarkdown(answers) {
   return `
-# ${answers.title}
-// Badge
-## Description
+<p align="center">
+  <img src="${answers.banner}" height="100%">
+</p>
+# ${answers.title}\n
+// Badge\n
+### Description\n
 ${answers.description}
 <hr/>
-## Contents
+### Contents\n
 ${answers.contents}
 <hr/>
-## Install
+### Install\n
 ${answers.install}
 <hr/>
-## Usage
+### Usage\n
 ${answers.usage}
 <hr/>
-## License
+### License\n
 ${answers.license}
 <hr/>
-## Contributors
+### Contributors\n
 ${answers.contributors}
 <hr/>
-## Tests
+### Tests\n
 ${answers.tests}
 <hr/>
 ${answers.picture}
