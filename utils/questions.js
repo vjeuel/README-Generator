@@ -1,15 +1,19 @@
 const questionsAsked = [
    {
-      message: "Would you like a banner? (If yes, add image link): ",
-      name: "banner"
-   },
-   {
       message: "What is the Title of your project?",
       name: "title"
    },
    {
+      message: "Would you like a banner? (If yes, add image link): ",
+      name: "banner"
+   },
+   {
       message: "What Badge would you like to use?",
       name: "badge"
+   },
+   {
+      message: "Would you like to add a link to the app? (If yes, add link): ",
+      name: "appLink"
    },
    {
       message: "Please provide a description of your project",

@@ -1,10 +1,11 @@
 function generateMarkdown(answers) {
   return `
+#${answers.title}\n
 <p align="center">
   <img src="${answers.banner}" height="100%">
 </p>
- ${#answers.title}\n
 // Badge\n
+You can access the app [here](${answers.appLink})\n
 ### Description\n
 ${answers.description}
 <hr/>

@@ -1,10 +1,12 @@
 
-<p align="center">
-  <img src="/Develop/logo.png" height="100%">
-</p>
-# README | generator
+#
 
+<p align="center">
+  <img src="" height="100%">
+</p>
 // Badge
+
+You can access the app [here]()
 
 ### Description
 
@@ -36,6 +38,6 @@
 <hr/>
 
 <hr/>
-vjeuel@gmail.com
+
 <hr/>
 vjeuel
