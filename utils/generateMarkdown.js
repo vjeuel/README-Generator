@@ -3,7 +3,7 @@ function generateMarkdown(answers) {
 <p align="center">
   <img src="${answers.banner}" height="100%">
 </p>
-# ${answers.title}\n
+ ${#answers.title}\n
 // Badge\n
 ### Description\n
 ${answers.description}
