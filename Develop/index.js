@@ -29,7 +29,7 @@ async function init() {
 
       const md = generateMarkdown(answers);
 
-      await writeFileAsync("README.md", md);
+      await writeFileAsync("../README.md", md);
 
       console.log("Congrats, you got a brand new README file!");
       
