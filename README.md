@@ -1,14 +1,7 @@
 
-<style type="text/css">
-  .profile {
-    border-radius: 50%;
-  }
-</style>
 <h1 align="center">README.md|generator</h1>
-
-<p align="center">
-  <img src="logo.png" height="100%">
-</p>
+  
+<img src="logo.png" align="center" height="100%">
 
 <p align="center" margin="20px">
   <a>
@@ -42,10 +35,10 @@ This README generator creates a markdown file based on the series of answers to 
 Write a README file by answering a few questions.
 
 ## **License**<br>
-mit
+apache-2.0
 
 ## **Contributors**<br>
-Jeuel Viveros
+My Grandma
 
 ## **Tests**<br>
 No tests needed for this repo.

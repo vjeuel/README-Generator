@@ -1,15 +1,8 @@
 function generateMarkdown(answers, data) {
   return `
-<style type="text/css">
-  .profile {
-    border-radius: 50%;
-  }
-</style>
 <h1 align="center">${answers.title}</h1>
-
-<p align="center">
-  <img src="${answers.banner}" height="100%">
-</p>
+  
+<img src="${answers.banner}" align="center" height="100%">
 
 <p align="center" margin="20px">
   <a>
