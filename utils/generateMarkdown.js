@@ -46,7 +46,6 @@ ${answers.tests}
 
 
 ## **Contact**<br>
-[gitHub](${answers.username})<br>
 ${answers.email}<br>
 
 <img src="${data.avatar_url}" align="left" height="120"  />

@@ -47,7 +47,6 @@ No tests needed for this repo.
 
 
 ## **Contact**<br>
-[gitHub](vjeuel)<br>
 vjeuel@gmail.com<br>
 
 <img src="https://avatars2.githubusercontent.com/u/26153956?v=4" align="left" height="120"  />
