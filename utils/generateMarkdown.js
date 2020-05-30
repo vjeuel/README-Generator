@@ -1,5 +1,10 @@
 function generateMarkdown(answers, data) {
   return `
+<style type="text/css">
+  .profile {
+    border-radius: 50%;
+  }
+</style>
 <h1 align="center">${answers.title}</h1>
 
 <p align="center">
@@ -48,7 +53,7 @@ ${answers.tests}
 ## **Contact**<br>
 ${answers.email}<br>
 
-<img src="${data.avatar_url}" align="left" height="120"  />
+<img src="${data.avatar_url}" class="profile" align="left" height="120"/>
 `;
 }
 

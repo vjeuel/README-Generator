@@ -1,4 +1,9 @@
 
+<style type="text/css">
+  .profile {
+    border-radius: 50%;
+  }
+</style>
 <h1 align="center">README.md|generator</h1>
 
 <p align="center">
@@ -49,4 +54,4 @@ No tests needed for this repo.
 ## **Contact**<br>
 vjeuel@gmail.com<br>
 
-<img src="https://avatars2.githubusercontent.com/u/26153956?v=4" align="left" height="120"  />
+<img src="https://avatars2.githubusercontent.com/u/26153956?v=4" class="profile" align="left" height="120"/>
