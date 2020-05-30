@@ -1,8 +1,8 @@
 
-# 
+<p align="center"># README.md|generator</p>
 
 <p align="center">
-  <img src="" height="100%">
+  <img src="logo.png" height="100%">
 </p>
 
 <p align="center" margin="20px">
@@ -20,7 +20,7 @@ You can access the app [here]()
 ## Description
 
 
-
+This README generator creates a markdown file based on the series of answers to questions that are generated in the terminal using node.js.
 
 ## Contents<br>
 **[Installation](#Installation)**<br>
@@ -31,30 +31,24 @@ You can access the app [here]()
 **[Contact](#Contact)**<br>
 
 ## **Installation**<br>
-
+`npm install inquirer`<br>`npm install axion`
 
 ## **Usage**<br>
-
+Write a README file by answering a few questions.
 
 ## **License**<br>
 mit
 
 ## **Contributors**<br>
-
+Jeuel Viveros
 
 ## **Tests**<br>
-
+No tests needed for this repo.
 
 
 ## **Contact**<br>
 vjeuel<br>
-<br>
-[LinkedIn]()
+vjeuel@gmail.com<br>
+[LinkedIn](https://www.linkedin.com/in/jeuel-viveros-9713aa191/)
 
-img[src="https://avatars2.githubusercontent.com/u/26153956?v=4"]{
-  height: 120px;
-  border-radius:50%;
-}
-// <p>
-//   <img src="https://avatars2.githubusercontent.com/u/26153956?v=4" height="120" border-radius="20">
-// </p>
+<img src="https://avatars2.githubusercontent.com/u/26153956?v=4" align="left" height="120"  />

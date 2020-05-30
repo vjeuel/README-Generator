@@ -1,6 +1,7 @@
 function generateMarkdown(answers, data) {
   return `
-# ${answers.title}\n
+<p align="center">${answers.title}</p>
+
 <p align="center">
   <img src="${answers.banner}" height="100%">
 </p>
@@ -49,13 +50,7 @@ ${answers.username}<br>
 ${answers.email}<br>
 [LinkedIn](${answers.urlLinkedIn})
 
-img[src="${data.avatar_url}"]{
-  height: 120px;
-  border-radius:50%;
-}
-// <p>
-//   <img src="${data.avatar_url}" height="120" border-radius="20">
-// </p>
+<img src="${data.avatar_url}" align="left" height="120"  />
 `;
 }
 
