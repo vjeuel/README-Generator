@@ -44,10 +44,6 @@ const questionsAsked = [
    {
       message: "Enter your GitHub username",
       name: "username"
-   },
-   {
-      message: "Enter your LinkedIn profile url",
-      name: "urlLinkedIn"
    }
 ];
 

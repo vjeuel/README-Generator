@@ -1,5 +1,5 @@
 
-<p align="center"># README.md|generator</p>
+<h1 align="center">README.md|generator</h1>
 
 <p align="center">
   <img src="logo.png" height="100%">
@@ -47,8 +47,7 @@ No tests needed for this repo.
 
 
 ## **Contact**<br>
-vjeuel<br>
+[gitHub](vjeuel)<br>
 vjeuel@gmail.com<br>
-[LinkedIn](https://www.linkedin.com/in/jeuel-viveros-9713aa191/)
 
 <img src="https://avatars2.githubusercontent.com/u/26153956?v=4" align="left" height="120"  />
