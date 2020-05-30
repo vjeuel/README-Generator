@@ -5,59 +5,64 @@ function generateMarkdown(answers, data) {
   <img src="${answers.banner}" height="100%">
 </p>
 
-
-[![Contributors][contributors-shield]][contributors-url]
-
-[![Forks][forks-shield]][forks-url]
-
-[![Stargazers][stars-shield]][stars-url]
-
-[![Issues][issues-shield]][issues-url]
-
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
-
-[![GitHub commit activity the past week, 4 weeks](https://img.shields.io/github/commit-activity/y/eslint/eslint.svg?style=flat)]()
-[![GitHub commits since](https://img.shields.io/github/commits-since/tterb/playmusic/v1.2.0.svg)]() 
-
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
+<p align="center">
 [![forthebadge](https://forthebadge.com/images/badges/approved-by-george-costanza.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/no-ragrets.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/as-seen-on-tv.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+
+  <a>
+    <img src="https://img.shields.io/badge/contributor-my%20grandma-green" /></a>
+  <a>
+    <img src="https://img.shields.io/badge/approved by-Arya%20Stark-red" /></a>
+  <a>
+    <img src="https://img.shields.io/badge/powered%20by-lack%20of%20sleep-orange" /></a>
+</p>
 
 You can access the app [here](${answers.appLink})\n
 
 ### Description\n
 
-####### ${answers.description}
+${answers.description}
 <hr/>
 
-### Contents\n
-####### ${answers.contents}
+### Contents<br>
+** [Installation](#Installation) **<br>
+** [Usage](#Usage) **<br>
+** [License](#License) **</br>
+** [Contributors](#Contributors) **<br>
+** [Tests](#Tests) **<br>
+** [Contact](#Contact) **<br>
+
+${answers.contents}
 <hr/>
 
-### Install\n
-####### ${answers.install}
+### *Installation*<br>
+${answers.install}
 <hr/>
 
-### Usage\n
-####### ${answers.usage}
+### *Usage*<br>
+${answers.usage}
 <hr/>
 
-### License
-####### ${answers.license}
+### *License*<br>
+${answers.license}
 <hr/>
 
-### Contributors\n
-####### ${answers.contributors}
+### *Contributors*<br>
+${answers.contributors}
 <hr/>
 
-### Tests\n
-####### ${answers.tests}
----
+### *Tests*<br>
+${answers.tests}
+<hr/>
 
-### Contact
+
+### *Contact*<br>
 ${answers.username}
-####### ${data.email}
+${data.email}
 <p>
   <img src="${data.avatar_url}" height="120" style="border-radius:50%">
 </p>

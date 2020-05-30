@@ -8,7 +8,7 @@ const questionsAsked = [
       name: "banner"
    },
    {
-      message: "What Badge would you like to use?",
+      message: "Lets add a website badge, what is your url?",
       name: "badge"
    },
    {
@@ -19,23 +19,19 @@ const questionsAsked = [
       message: "Please provide a description of your project",
       name: "description"
    },
+   // {
+   //    message: "What is your Table of Contents?",
+   //    name: "contents"
+   // },
    {
-      message: "What is your Table of Contents?",
-      name: "contents"
-   },
-   {
-      message: "WHat command should be used to Install?",
+      message: "What command should be used to Install?",
       name: "install"
-   },
-   {
-      message: "Can can this repo be used for?",
-      name: "usage"
    },
    {
       message: "What License would you like to use?",
       name: "license",
       type: "list",
-      choices: ["mit", "gpl", "apache-2.0", "other"]
+      choices: ["mit", "gpl", "apache-2.0", "other", "none"]
    },
    {
       message: "Who contributed to this project?",
