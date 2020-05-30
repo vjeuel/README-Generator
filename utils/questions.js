@@ -20,6 +20,10 @@ const questionsAsked = [
       name: "install"
    },
    {
+      message: "Can this repo be used for?",
+      name: "usage"
+   },
+   {
       message: "What License would you like to use?",
       name: "license",
       type: "list",
