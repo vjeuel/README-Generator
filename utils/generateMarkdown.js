@@ -5,7 +5,7 @@ function generateMarkdown(answers, data) {
   <img src="${answers.banner}" height="100%">
 </p>
 
-<p align="center">
+<p align="center" style="display:grid; grid-gap:20px">
   <a>
     <img src="https://img.shields.io/badge/contributor-my%20grandma-green?style=for-the-badge" /></>
   <a>
@@ -19,7 +19,6 @@ You can access the app [here](${answers.appLink})\n
 ## Description\n
 
 ${answers.description}
-<hr/>
 
 ## Contents<br>
 **[Installation](#Installation)**<br>
@@ -31,23 +30,18 @@ ${answers.description}
 
 ## **Installation**<br>
 ${answers.install}
-<hr/>
 
 ## **Usage**<br>
 ${answers.usage}
-<hr/>
 
 ## **License**<br>
 ${answers.license}
-<hr/>
 
 ## **Contributors**<br>
 ${answers.contributors}
-<hr/>
 
 ## **Tests**<br>
 ${answers.tests}
-<hr/>
 
 
 ## **Contact**<br>
@@ -55,7 +49,7 @@ ${answers.username}<br>
 ${answers.email}<br>
 [LinkedIn](${answers.urlLinkedIn})
 <p>
-  <img src="${data.avatar_url}" height="120" style="border-radius:50">
+  <img src="${data.avatar_url}" style="height:120px; border-radius:20px">
 </p>
 `;
 }
