@@ -1,11 +1,11 @@
 
-# README.md|generator
+# 
 
 <p align="center">
   <img src="logo.png" height="100%">
 </p>
 
-<p align="center">
+<p align="center" style="display:grid; grid-gap:20px">
   <a>
     <img src="https://img.shields.io/badge/contributor-my%20grandma-green?style=for-the-badge" /></>
   <a>
@@ -21,7 +21,6 @@ You can access the app [here]()
 
 
 This README generator creates a markdown file based on the series of answers to questions that are generated in the terminal using node.js.
-<hr/>
 
 ## Contents<br>
 **[Installation](#Installation)**<br>
@@ -32,24 +31,19 @@ This README generator creates a markdown file based on the series of answers to 
 **[Contact](#Contact)**<br>
 
 ## **Installation**<br>
-`npm install inquirer<br>npm install axion`
-<hr/>
+```npm install inquirer\nnpm install axion```
 
 ## **Usage**<br>
 undefined
-<hr/>
 
 ## **License**<br>
 mit
-<hr/>
 
 ## **Contributors**<br>
-
-<hr/>
+Jeuel Viveros
 
 ## **Tests**<br>
-No tests needed for this repo
-<hr/>
+No tests needed for this repo.
 
 
 ## **Contact**<br>
@@ -57,5 +51,5 @@ vjeuel<br>
 vjeuel@gmail.com<br>
 [LinkedIn](https://www.linkedin.com/in/jeuel-viveros-9713aa191/)
 <p>
-  <img src="https://avatars2.githubusercontent.com/u/26153956?v=4" height="120" style="border-radius:50">
+  <img src="https://avatars2.githubusercontent.com/u/26153956?v=4" style="height:120px; border-radius:20px">
 </p>
