@@ -1,7 +1,9 @@
 
-<h1 align="center">README.md|generator</h1>
-  
-<img src="logo.png" align="center" height="100%">
+<h1 align="center">README.me|generator</h1>
+
+<p align="center">
+  <img src="logo.png" height="100%">
+</p>
 
 <p align="center" margin="20px">
   <a>
@@ -38,7 +40,7 @@ Write a README file by answering a few questions.
 apache-2.0
 
 ## **Contributors**<br>
-My Grandma
+My grandma.
 
 ## **Tests**<br>
 No tests needed for this repo.

@@ -1,8 +1,10 @@
 function generateMarkdown(answers, data) {
   return `
 <h1 align="center">${answers.title}</h1>
-  
-<img src="${answers.banner}" align="center" height="100%">
+
+<p align="center">
+  <img src="${answers.banner}" height="100%">
+</p>
 
 <p align="center" margin="20px">
   <a>
