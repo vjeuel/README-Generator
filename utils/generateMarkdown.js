@@ -29,9 +29,6 @@ ${answers.description}
 **[Tests](#Tests)**<br>
 **[Contact](#Contact)**<br>
 
-${answers.contents}
-<hr/>
-
 ## **Installation**<br>
 ${answers.install}
 <hr/>
@@ -55,7 +52,8 @@ ${answers.tests}
 
 ## **Contact**<br>
 ${answers.username}<br>
-${answers.email}
+${answers.email}<br>
+[LinkedIn](${answers.urlLinkedIn})
 <p>
   <img src="${data.avatar_url}" height="120" style="border-radius:50">
 </p>

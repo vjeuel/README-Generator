@@ -31,11 +31,8 @@ This README generator creates a markdown file based on the series of answers to 
 **[Tests](#Tests)**<br>
 **[Contact](#Contact)**<br>
 
-undefined
-<hr/>
-
 ## **Installation**<br>
-npm install inquirer<br>npm install axion
+`npm install inquirer<br>npm install axion`
 <hr/>
 
 ## **Usage**<br>
@@ -47,7 +44,7 @@ mit
 <hr/>
 
 ## **Contributors**<br>
-Jeuel Viveros
+
 <hr/>
 
 ## **Tests**<br>
@@ -56,8 +53,9 @@ No tests needed for this repo
 
 
 ## **Contact**<br>
-vjeuel
-vjeuel@gmail.com
+vjeuel<br>
+vjeuel@gmail.com<br>
+[LinkedIn](https://www.linkedin.com/in/jeuel-viveros-9713aa191/)
 <p>
   <img src="https://avatars2.githubusercontent.com/u/26153956?v=4" height="120" style="border-radius:50">
 </p>

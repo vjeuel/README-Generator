@@ -7,10 +7,6 @@ const questionsAsked = [
       message: "Would you like a banner? (If yes, add image link): ",
       name: "banner"
    },
-   // {
-   //    message: "Lets add a website badge, what is your url?",
-   //    name: "badge"
-   // },
    {
       message: "Would you like to add a link to the app? (If yes, add link): ",
       name: "appLink"
@@ -19,10 +15,6 @@ const questionsAsked = [
       message: "Please provide a description of your project",
       name: "description"
    },
-   // {
-   //    message: "What is your Table of Contents?",
-   //    name: "contents"
-   // },
    {
       message: "What command should be used to Install?",
       name: "install"
@@ -49,6 +41,10 @@ const questionsAsked = [
       message: "Enter your GitHub username",
       name: "username"
    },
+   {
+      message: "Enter your LinkedIn profile url",
+      name: "urlLinkedIn"
+   }
 ];
 
 module.exports = questionsAsked;

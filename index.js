@@ -13,14 +13,14 @@ function promptUser() {
    return inquirer.prompt(questionsAsked);
 };
 
-function writeToFile(fileName, data) {
-   inquirer.prompt(username).then(({ username }) => {
-      const queryUrl = `https://api.github.com/users/${username}`;
+// function writeToFile(fileName, data) {
+//    inquirer.prompt(username).then(({ username }) => {
+//       const queryUrl = `https://api.github.com/users/${username}`;
       
-      axios.get(queryUrl).then(res => {
-      });      
-   });
-};
+//       axios.get(queryUrl).then(res => {
+//       });      
+//    });
+// };
    
 async function init() {
    console.log("Hello, helloooo!");
