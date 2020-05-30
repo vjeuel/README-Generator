@@ -7,10 +7,10 @@ const questionsAsked = [
       message: "Would you like a banner? (If yes, add image link): ",
       name: "banner"
    },
-   {
-      message: "Lets add a website badge, what is your url?",
-      name: "badge"
-   },
+   // {
+   //    message: "Lets add a website badge, what is your url?",
+   //    name: "badge"
+   // },
    {
       message: "Would you like to add a link to the app? (If yes, add link): ",
       name: "appLink"
