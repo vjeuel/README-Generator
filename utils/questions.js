@@ -33,7 +33,9 @@ const questionsAsked = [
    },
    {
       message: "What License would you like to use?",
-      name: "license"
+      name: "license",
+      type: "list",
+      choices: ["mit", "gpl", "apache-2.0", "other"]
    },
    {
       message: "Who contributed to this project?",
@@ -42,10 +44,6 @@ const questionsAsked = [
    {
       message: "Run any Tests?",
       name: "tests"
-   },
-   {
-      message: "Would you like to post your picture to this project?",
-      name: "picture"
    },
    {
       message: "What is your GitHub email?",

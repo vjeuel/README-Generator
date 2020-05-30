@@ -1,9 +1,10 @@
 const fs = require("fs");
 const axios = require("axios");
 const inquirer = require("inquirer");
+const {makeBadge, ValidationError} = require("badge-maker");
 const util = require("util");
 const questionsAsked = require("./utils/questions");
-const api = require("./utils/api")
+// const api = require("./utils/api")
 const generateMarkdown = require("./utils/generateMarkdown");
 
 const writeFileAsync = util.promisify(fs.writeFile);
@@ -15,7 +16,7 @@ function promptUser() {
 function writeToFile(fileName, data) {
    inquirer.prompt(username).then(({ username }) => {
       const queryUrl = `https://api.github.com/users/${username}`;
-   
+      
       axios.get(queryUrl).then(res => {
       });      
    });
@@ -27,7 +28,9 @@ async function init() {
    try {
       const answers = await promptUser();
 
-      const md = generateMarkdown(answers);
+      let github = await axios.get(`https://api.github.com/users/${answers.username}`)
+
+      const md = generateMarkdown(answers, github.data);
 
       await writeFileAsync("README.md", md);
 

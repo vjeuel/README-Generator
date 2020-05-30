@@ -1,47 +1,54 @@
-function generateMarkdown(answers) {
+function generateMarkdown(answers, data) {
   return `
 # ${answers.title}\n
 <p align="center">
   <img src="${answers.banner}" height="100%">
 </p>
-// Badge\n
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
 You can access the app [here](${answers.appLink})\n
 
 ### Description\n
-${answers.description}
+
+####### ${answers.description}
 <hr/>
 
 ### Contents\n
-${answers.contents}
+####### ${answers.contents}
 <hr/>
 
 ### Install\n
-${answers.install}
+####### ${answers.install}
 <hr/>
 
 ### Usage\n
-${answers.usage}
+####### ${answers.usage}
 <hr/>
 
 ### License\n
-${answers.license}
+####### ${answers.license}
 <hr/>
 
 ### Contributors\n
-${answers.contributors}
+####### ${answers.contributors}
 <hr/>
 
 ### Tests\n
-${answers.tests}
-<hr/>
+####### ${answers.tests}
+---
 
-${answers.picture}
-<hr/>
-
-${answers.email}
-<hr/>
-
+### Contact
 ${answers.username}
+####### ${data.email}
+<p>
+  <img src="${data.avatar_url}" height="120" style="border-radius:50%">
+</p>
 `;
 }
 
