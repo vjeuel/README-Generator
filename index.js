@@ -1,7 +1,7 @@
 const fs = require("fs");
 const axios = require("axios");
 const inquirer = require("inquirer");
-const {makeBadge, ValidationError} = require("badge-maker");
+// const {makeBadge, ValidationError} = require("badge-maker");
 const util = require("util");
 const questionsAsked = require("./utils/questions");
 // const api = require("./utils/api")
