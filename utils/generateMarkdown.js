@@ -5,7 +5,6 @@ function generateMarkdown(answers, data) {
   <img src="${answers.banner}" height="100%">
 </p>
 
-<p align="center">
 [![forthebadge](https://forthebadge.com/images/badges/approved-by-george-costanza.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/no-ragrets.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
@@ -13,6 +12,7 @@ function generateMarkdown(answers, data) {
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
+<p align="center">
   <a>
     <img src="https://img.shields.io/badge/contributor-my%20grandma-green" /></a>
   <a>
@@ -23,44 +23,44 @@ function generateMarkdown(answers, data) {
 
 You can access the app [here](${answers.appLink})\n
 
-### Description\n
+## Description\n
 
 ${answers.description}
 <hr/>
 
-### Contents<br>
-** [Installation](#Installation) **<br>
-** [Usage](#Usage) **<br>
-** [License](#License) **</br>
-** [Contributors](#Contributors) **<br>
-** [Tests](#Tests) **<br>
-** [Contact](#Contact) **<br>
+## Contents<br>
+**[Installation](#Installation)**<br>
+**[Usage](#Usage)**<br>
+**[License](#License)**</br>
+**[Contributors](#Contributors)**<br>
+**[Tests](#Tests)**<br>
+**[Contact](#Contact)**<br>
 
 ${answers.contents}
 <hr/>
 
-### *Installation*<br>
+## **Installation**<br>
 ${answers.install}
 <hr/>
 
-### *Usage*<br>
+## **Usage**<br>
 ${answers.usage}
 <hr/>
 
-### *License*<br>
+## **License**<br>
 ${answers.license}
 <hr/>
 
-### *Contributors*<br>
+## **Contributors**<br>
 ${answers.contributors}
 <hr/>
 
-### *Tests*<br>
+## **Tests**<br>
 ${answers.tests}
 <hr/>
 
 
-### *Contact*<br>
+## **Contact**<br>
 ${answers.username}
 ${data.email}
 <p>
