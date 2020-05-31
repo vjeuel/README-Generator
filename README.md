@@ -1,5 +1,5 @@
 
-<h1 align="center">README.me|generator</h1>
+<h1 align="center">README.md|generator</h1>
 
 <p align="center">
   <img src="logo.png" height="100%">
