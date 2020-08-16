@@ -32,7 +32,7 @@ async function init() {
 
       const md = generateMarkdown(answers, github.data);
 
-      await writeFileAsync("README.md", md);
+      await writeFileAsync("README-2.md", md);
 
       console.log("Congrats, you got a brand new README file!");
       
