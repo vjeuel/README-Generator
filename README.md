@@ -14,9 +14,6 @@
     <img src="https://img.shields.io/badge/powered%20by-lack%20of%20sleep-orange?style=for-the-badge" /></a>
 </p>
 
-You can access the app [here]()
-
-
 ## Description
 
 
@@ -34,7 +31,7 @@ This README generator creates a markdown file based on the series of answers to 
 `npm install inquirer`<br>`npm install axion`
 
 ## **Usage**<br>
-Write a README file by answering a few questions.
+`node index.js`
 
 ## **License**<br>
 apache-2.0
